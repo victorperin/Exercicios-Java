@@ -1,10 +1,38 @@
 /*************************************************************************
- * 3) FaÁa um programa para pagamento de comiss„o de vendedores de peÁas,
- *		levando-se em consideraÁ„o que sua comiss„o ser· de 5% do total da venda 
- *		e que vocÍ tem os seguintes dados:
- * 		- IdentificaÁ„o do vendedor
- * 		- CÛdigo da peÁa
- * 		- PreÁo unit·rio da peÁa
+ * 3) Fa√ßa um programa para pagamento de comiss√£o de vendedores de pe√ßas,
+ *		levando-se em considera√ß√£o que sua comiss√£o ser√° de 5% do total da venda 
+ *		e que voc√™ tem os seguintes dados:
+ * 		- Identifica√ß√£o do vendedor
+ * 		- C√≥digo da pe√ßa
+ * 		- Pre√ßo unit√°rio da pe√ßa
  * 		- Quantidade vendida
 
 *************************************************************************/
+import java.util.Scanner;
+
+public class Comissao {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		System.out.print("Programa para pagamento de comiss√£o de vendedores de pe√ßas.\n\n"); //Why so specific?!
+		
+		int IdVendedor,IdPeca;
+		float PrecoPeca,Quantidade,ValorComissao,PorcentagemComissao=0.05f;
+		
+		System.out.print("Digite a identifica√ß√£o do vendedor: ");
+		IdVendedor = entrada.nextInt();
+		
+		System.out.print("Digite o ID da Pe√ßa: ");
+		IdPeca = entrada.nextInt();
+		
+		System.out.print("Digite o pre√ßo unit√°rio da pe√ßa: ");
+		PrecoPeca = entrada.nextFloat();
+		
+		System.out.print("Digite a quantidade de pe√ßas vendidas: ");
+		Quantidade = entrada.nextFloat();
+		
+		ValorComissao = (PrecoPeca * Quantidade) * PorcentagemComissao; 
+		
+		System.out.printf("O valor da comiss√£o √© de %.2f reais.\n", ValorComissao);
+		
+	}
+}
