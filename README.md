@@ -23,10 +23,10 @@ Os mesmos exercícios do semestre passado, feitos em C#, agora, recriados em Jav
 | :---------------: | :---------------: |
 | 01 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
 | 02 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
-| 03 | ![verde](https://cloud.githubusercontent.com/assets/5847145/6166114/634c06b8-b294-11e4-98f3-bf758d351465.png) |
-| 04 | ![verde](https://cloud.githubusercontent.com/assets/5847145/6166114/634c06b8-b294-11e4-98f3-bf758d351465.png) |
-| 05 | ![cinza](https://cloud.githubusercontent.com/assets/5847145/6166112/63047c8a-b294-11e4-9333-3071910c11d2.png) |
-| 06 | ![cinza](https://cloud.githubusercontent.com/assets/5847145/6166112/63047c8a-b294-11e4-9333-3071910c11d2.png) |
+| 03 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
+| 04 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
+| 05 | ![verde](https://cloud.githubusercontent.com/assets/5847145/6166114/634c06b8-b294-11e4-98f3-bf758d351465.png) |
+| 06 | ![verde](https://cloud.githubusercontent.com/assets/5847145/6166114/634c06b8-b294-11e4-98f3-bf758d351465.png) |
 | 07 | ![cinza](https://cloud.githubusercontent.com/assets/5847145/6166112/63047c8a-b294-11e4-9333-3071910c11d2.png) |
 | 08 | ![cinza](https://cloud.githubusercontent.com/assets/5847145/6166112/63047c8a-b294-11e4-9333-3071910c11d2.png) |
 | 09 | ![cinza](https://cloud.githubusercontent.com/assets/5847145/6166112/63047c8a-b294-11e4-9333-3071910c11d2.png) |
