@@ -53,9 +53,9 @@ Os mesmos exercícios do semestre passado, feitos em C#, agora, recriados em Jav
 ###Nível 3: Estrutura de Seleção
 | Exercício  | Estado |
 | :---------------: | :---------------: |
-| 23 | ![cinza](https://cloud.githubusercontent.com/assets/5847145/6166112/63047c8a-b294-11e4-9333-3071910c11d2.png) |
-| 24 | ![cinza](https://cloud.githubusercontent.com/assets/5847145/6166112/63047c8a-b294-11e4-9333-3071910c11d2.png) |
-| 25 | ![cinza](https://cloud.githubusercontent.com/assets/5847145/6166112/63047c8a-b294-11e4-9333-3071910c11d2.png) |
+| 23 | ![verde](https://cloud.githubusercontent.com/assets/5847145/6166114/634c06b8-b294-11e4-98f3-bf758d351465.png) |
+| 24 | ![verde](https://cloud.githubusercontent.com/assets/5847145/6166114/634c06b8-b294-11e4-98f3-bf758d351465.png) |
+| 25 | ![verde](https://cloud.githubusercontent.com/assets/5847145/6166114/634c06b8-b294-11e4-98f3-bf758d351465.png) |
 
 
 ###Nível 4: Estruturas de Repetição
