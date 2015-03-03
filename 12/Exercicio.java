@@ -20,8 +20,7 @@ public class Exercicio {
       	Numero = entrada.nextInt();
 
 
-      	if(Numero >= 0) ModuloNumero = Numero;
-        else ModuloNumero = Numero*(-1);
+      	ModuloNumero = (Numero < 0)? ModuloNumero = Numero*(-1):Numero;
 
         System.out.print("O módulo do número é "+ModuloNumero+"\n");
 
