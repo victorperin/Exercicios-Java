@@ -73,7 +73,7 @@ Os mesmos exercícios do semestre passado, feitos em C#, agora, recriados em Jav
 | 35 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
 | 36 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
 | 37 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
-| 38 | ![verde](https://cloud.githubusercontent.com/assets/5847145/6166114/634c06b8-b294-11e4-98f3-bf758d351465.png) |
+| 38 | ![vermelho](https://cloud.githubusercontent.com/assets/5847145/6166113/6326ad8c-b294-11e4-855d-9095eb7a5f45.png) |
 | 39 | ![verde](https://cloud.githubusercontent.com/assets/5847145/6166114/634c06b8-b294-11e4-98f3-bf758d351465.png) |
 | 40 | ![verde](https://cloud.githubusercontent.com/assets/5847145/6166114/634c06b8-b294-11e4-98f3-bf758d351465.png) |
 | 41 | ![verde](https://cloud.githubusercontent.com/assets/5847145/6166114/634c06b8-b294-11e4-98f3-bf758d351465.png) |
