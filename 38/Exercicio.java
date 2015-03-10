@@ -17,8 +17,8 @@ public class Exercicio {
 		Scanner entrada = new Scanner(System.in);
 		int C;
 		double N,E=0,PrecoHora,PrecoExcedente;
-		boolean continuar = false;
-		String texto;
+		boolean continuar = true;
+		char texto;
 
 		do{
 			E=0;
@@ -35,10 +35,10 @@ public class Exercicio {
 				E = N-50;
 			}
 
-			System.out.println("\nID: "+C+"\nSalario: "+(N*PrecoHora)+"\nSalario excedente: "+(E*PrecoExcedente)+"\nSalario total: "+(E*PrecoExcedente+N*PrecoHora)+"\n\nDeseja continuar (s/n)? ");
-			texto = entrada.next();
-			if(texto == "s" || texto == "S"){//if não está rodando.
-				continuar = true;
+			System.out.println("\nID: "+C+"\nSalario: "+(N*PrecoHora)+"\nSalario excedente: "+(E*PrecoExcedente)+"\nSalario total: "+(E*PrecoExcedente+N*PrecoHora)+"\n\nDeseja encerrar o programa?(s/N) ");
+			texto = entrada.next().charAt(0);
+			if(texto == 's' || texto == 'S'){
+				continuar = false;
 			}
 
 		}while(continuar);
