@@ -25,6 +25,7 @@ public class Exercicio {
 					CarregarVetor();
 					break;
 				case 2:
+					System.out.print(ListarVetor());
 					break;
 				case 3:
 					break;
@@ -51,6 +52,13 @@ public class Exercicio {
 		System.out.println("\nVetor carregado com sucesso!\n");
 	}
 	//2 - Listar Vetor
+	public static String ListarVetor(){
+		String ListaVetor = "Valores do vetor:\n";
+		for(int x=0;x<10;x++){
+			ListaVetor += "\t"+Vetor[x]+"\n";
+		}
+		return ListaVetor;
+	}
 	//3 - Exibir apenas os números pares do vetor
 	//4 - Exibir apenas os números ímpares do vetor
 	//5 - Exibir a quantidade de números pares existem nas posições ímpares do vetor
