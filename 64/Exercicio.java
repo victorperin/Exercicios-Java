@@ -31,6 +31,7 @@ public class Exercicio {
 					System.out.print(ListarParesVetor());
 					break;
 				case 4:
+					System.out.print(ListarImparesVetor());
 					break;
 				case 5:
 					break;
@@ -71,6 +72,15 @@ public class Exercicio {
 		return ListaVetor;
 	}
 	//4 - Exibir apenas os números ímpares do vetor
+	public static String ListarImparesVetor(){
+		String ListaVetor = "Valores do vetor:\n";
+		for(int x=0;x<10;x++){
+			if(Vetor[x]%2==1){
+				ListaVetor += "\t"+Vetor[x]+"\n";
+			}
+		}
+		return ListaVetor;
+	}
 	//5 - Exibir a quantidade de números pares existem nas posições ímpares do vetor
 	//6 - Exibir a quantidade de números ímpares existem nas posições pares do vetor
 
