@@ -18,6 +18,10 @@ Os mesmos exercícios do semestre passado, feitos em C#, agora, recriados em Jav
 | ![cinza](https://cloud.githubusercontent.com/assets/5847145/6166112/63047c8a-b294-11e4-9333-3071910c11d2.png) | Exercício aguardando dia da resolução |
 | ![vermelho](https://cloud.githubusercontent.com/assets/5847145/6166113/6326ad8c-b294-11e4-855d-9095eb7a5f45.png) | Exercício dando erro (Can't fix) |
 
+
+
+
+##Lista 1 (64 exercícios)
 ###Nível 1: Entrada, Processamento e Saída
 | Exercício  | Estado |
 | :---------------: | :---------------: |
@@ -110,3 +114,30 @@ Os mesmos exercícios do semestre passado, feitos em C#, agora, recriados em Jav
 | 62 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
 | 63 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
 | 64 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
+
+
+
+##Lista 2 - Objetos
+| Exercício  | Estado |
+| :---------------: | :---------------: |
+| 1 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
+| 2 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
+| 3 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
+
+
+
+##Lista 3 - 05/03/2015
+| Exercício  | Estado |
+| :---------------: | :---------------: |
+| 1 | ![verde](https://cloud.githubusercontent.com/assets/5847145/6166114/634c06b8-b294-11e4-98f3-bf758d351465.png) |
+| 2 | ![verde](https://cloud.githubusercontent.com/assets/5847145/6166114/634c06b8-b294-11e4-98f3-bf758d351465.png) |
+| 3 | ![verde](https://cloud.githubusercontent.com/assets/5847145/6166114/634c06b8-b294-11e4-98f3-bf758d351465.png) |
+
+
+
+##Lista 4 - 12/03/2015
+| Exercício  | Estado |
+| :---------------: | :---------------: |
+| 1 | ![cinza](https://cloud.githubusercontent.com/assets/5847145/6166112/63047c8a-b294-11e4-9333-3071910c11d2.png) |
+| 2 | ![cinza](https://cloud.githubusercontent.com/assets/5847145/6166112/63047c8a-b294-11e4-9333-3071910c11d2.png) |
+| 3 | ![cinza](https://cloud.githubusercontent.com/assets/5847145/6166112/63047c8a-b294-11e4-9333-3071910c11d2.png) |
