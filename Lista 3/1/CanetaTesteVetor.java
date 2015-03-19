@@ -44,7 +44,16 @@ public class CanetaTesteVetor{
         case 3:
           System.out.println((quantidadeCanetas==1)?"Existe "+quantidadeCanetas+" caneta cadastrada":"Existem "+quantidadeCanetas+" canetas cadastradas");
           break;
-
+        case 4:
+          String corProcurada;
+          System.out.print("Digite a cor: ");
+          corProcurada = entrada.nextLine();
+          for(int x=0;x<quantidadeCanetas;x++){
+            if(corProcurada.equals(canetas[x].getCor())){
+              System.out.println(canetas[x].toString()  );
+            }
+          }
+          break;
         case 0:
           break;
         default: System.out.println("Você digitou a opção errada, tente novamente.");
