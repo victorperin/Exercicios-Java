@@ -20,7 +20,25 @@ public class CanetaTesteVetor{
       System.out.println("Digite uma das seguntes opções:\n\t1–Cadastrar caneta\n\t2–Exibir todas as canetas\n\t3–Exibir quantidade de canetas cadastradas\n\t4–Consultar quantidade de canetas de uma determinada cor (digitada pelo usuário)\n\t0-Sair");
       opcoes = Integer.parseInt(entrada.nextLine());
       switch(opcoes){
+        case 1:
+          if(quantidadeCanetas>=50){
+            System.out.println("Já existem muitas canetas.");
+          }else{
+            String marca, cor;
+            int tamanho;
+            System.out.print("Digite a marca: ");
+            marca = entrada.nextLine();
+            System.out.print("Digite a cor: ");
+            cor = entrada.nextLine();
+            System.out.print("Digite o tamanho (inteiros): ");
+            tamanho = Integer.parseInt(entrada.nextLine());
+            canetas[quantidadeCanetas]= new Caneta(marca,cor,tamanho);
+            quantidadeCanetas++;
+          }
+          break;
 
+        case 0:
+          break;
         default: System.out.println("Você digitou a opção errada, tente novamente.");
       }
     } while(opcoes!=0);
