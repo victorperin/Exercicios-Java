@@ -36,6 +36,14 @@ public class CanetaTesteVetor{
             quantidadeCanetas++;
           }
           break;
+        case 2:
+          for(int x=0;x<quantidadeCanetas;x++){
+            System.out.print(canetas[x].toString());
+          }
+          break;
+        case 3:
+          System.out.println((quantidadeCanetas==1)?"Existe "+quantidadeCanetas+" caneta cadastrada":"Existem "+quantidadeCanetas+" canetas cadastradas");
+          break;
 
         case 0:
           break;
