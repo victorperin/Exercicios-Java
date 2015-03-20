@@ -74,5 +74,17 @@ public class Lampada{
 	}
 	public void setStatus(boolean status){
 		this.status=status;
+
+	//toString
+	public String toString(){
+		String texto = "Lâmpada:";
+		texto += "\n\tTipo: "+this.tipo;
+		texto += "\n\tVoltagem: "+this.voltagem;
+		texto += "\n\tCor: "+this.cor;
+		texto += "\n\tMarca: "+this.marca;
+		texto += "\n\tPreco: "+this.preco;
+		texto += "\n\tPotência: "+this.potencia;
+		texto += "\n\tStatus: "+this.status;
+		return texto;
 	}
 }
