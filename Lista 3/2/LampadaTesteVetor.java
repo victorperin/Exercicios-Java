@@ -71,6 +71,19 @@ public class LampadaTesteVetor{
 					System.out.println("Quantidade de lâmpadas com "+potenciaProcurada+" de potencia: "+quantidadeEncontrada);
 					break;
 				case 5:
+					double mediaPreco=0;
+					int x;
+					for(x=0;x<quantidade_lampadas;x++){
+						mediaPreco+=lampadas[x].getPreco();
+					}
+					mediaPreco=mediaPreco/x;
+					for(int y=0;y<quantidade_lampadas;y++){
+						double precoAtual = lampadas[y].getPreco();
+						if(precoAtual<mediaPreco){
+							System.out.println(lampadas[y].toString());
+						}
+					}
+					break;
 				case 6:
         case 0:
           break;
