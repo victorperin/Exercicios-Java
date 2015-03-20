@@ -57,6 +57,8 @@ public class LampadaTesteVetor{
 					}
 					break;
 				case 3:
+					System.out.println("Quantidade de lampadas cadastradas: "+quantidade_lampadas);
+					break;
 				case 4:
 				case 5:
 				case 6:
