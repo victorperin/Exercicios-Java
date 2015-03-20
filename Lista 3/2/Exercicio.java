@@ -30,7 +30,28 @@ public class Lampada{
 		this.status=status;
 	}
 
-
+	//getters
+	public String getTipo(){
+		return this.tipo;
+	}
+	public String getVoltagem(){
+		return this.voltagem;
+	}	
+	public String getCor(){
+		return this.cor;
+	}
+	public String getMarca(){
+		return this.marca;
+	}
+	public String getPreco(){
+		return this.preco;
+	}
+	public String getPotencia(){
+		return this.potencia;
+	}
+	public String getStatus(){
+		return this.status;
+	}
 }
 
 
