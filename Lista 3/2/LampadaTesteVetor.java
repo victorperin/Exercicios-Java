@@ -85,6 +85,13 @@ public class LampadaTesteVetor{
 					}
 					break;
 				case 6:
+					int quantidadeAscesas=0,quantidadeApagadas=0;
+					for(x=0;x<quantidade_lampadas;x++){
+						if(lampadas[x].getStatus()) quantidadeAscesas++;
+						else quantidadeApagadas++;
+					}
+					System.out.println("Quantidade de lâmpadas acesas: "+quantidadeAscesas+"\nQuantidade de lâmpadas apagadas: "+quantidadeApagadas);
+					break;
         case 0:
           break;
         default: System.out.println("Você digitou a opção errada, tente novamente.");
