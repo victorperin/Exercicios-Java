@@ -60,6 +60,16 @@ public class LampadaTesteVetor{
 					System.out.println("Quantidade de lampadas cadastradas: "+quantidade_lampadas);
 					break;
 				case 4:
+					System.out.print("Digite a potencia que você deseja: ");
+					double potenciaProcurada = Double.parseDouble(entrada.nextLine());
+					int quantidadeEncontrada=0;
+					for(int x=0;x<quantidade_lampadas;x++){
+						if(lampadas[x].getPotencia() == potenciaProcurada){
+							quantidadeEncontrada++;
+						}
+					}
+					System.out.println("Quantidade de lâmpadas com "+potenciaProcurada+" de potencia: "+quantidadeEncontrada);
+					break;
 				case 5:
 				case 6:
         case 0:
