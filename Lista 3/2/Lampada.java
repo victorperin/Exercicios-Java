@@ -36,7 +36,7 @@ public class Lampada{
 	}
 	public String getVoltagem(){
 		return this.voltagem;
-	}	
+	}
 	public String getCor(){
 		return this.cor;
 	}
@@ -52,8 +52,27 @@ public class Lampada{
 	public String getStatus(){
 		return this.status;
 	}
+
+	//setters
+	public void setTipo(String tipo){
+		this.tipo=tipo;
+	}
+	public void setVoltagem(int voltagem){
+		this.voltagem=voltagem;
+	}
+	public void setCor(String cor){
+		this.cor=cor;
+	}
+	public void setMarca(String marca){
+		this.marca=marca;
+	}
+	public void setPreco(double preco){
+		this.preco=preco;
+	}
+	public void setPotencia(double potencia){
+		this.potencia=potencia
+	}
+	public void setStatus(boolean status){
+		this.status=status;
+	}
 }
-
-
-
-
