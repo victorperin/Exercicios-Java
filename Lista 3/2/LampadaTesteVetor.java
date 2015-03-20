@@ -55,6 +55,7 @@ public class LampadaTesteVetor{
 					for(int x=0;x<quantidade_lampadas;x++){
 						System.out.println(lampadas[x].toString());
 					}
+					break;
 				case 3:
 				case 4:
 				case 5:
