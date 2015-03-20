@@ -87,4 +87,12 @@ public class Lampada{
 		texto += "\n\tStatus: "+this.status;
 		return texto;
 	}
+
+	//ascender e apagar
+	public void ascender(){
+		setStatus(true);
+	}
+	public void apagar(){
+		setStatus(false);
+	}
 }
