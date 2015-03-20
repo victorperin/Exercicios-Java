@@ -27,7 +27,7 @@ public class LampadaTesteVetor{
       switch(opcoes){
 				case 1:
 					if(quantidade_lampadas>=quantidade_vetor){
-						System.out.println("Já existem muitas canetas.");
+						System.out.println("Já existem muitas lâmpadas.");
 					}else{
 						String tipo, cor, marca;
 						int voltagem;
