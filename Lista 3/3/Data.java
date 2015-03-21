@@ -39,5 +39,10 @@ public class Data{
 		this.ano=ano;
 	}
 
-	
+
+	//toString
+	public String toString(){
+		return this.dia+"/"+this.mes+"/"+this.ano;
+	}
+
 }
