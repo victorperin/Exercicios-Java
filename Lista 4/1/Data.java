@@ -48,6 +48,15 @@ public class Data{
 		return this.dia+"/"+this.mes+"/"+this.ano;
 	}
 
+	//converter String para data array
+	public int[] converterToArray(String dataString){
+		String partes[] = dataString.split("/");
+		int[] dataInt = new int[3];
+		for(int x=0;x<partes.length;x++){
+			dataInt[x]=Integer.parseInt(partes[x]);
+		}
+		return dataInt;
+	}
 
 	//validarData
 	public boolean validarData(int dia,int mes,int ano){
