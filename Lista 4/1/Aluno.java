@@ -12,20 +12,28 @@ import java.util.Scanner;
 
 public class Aluno extends Pessoa{
 	private String ra;
+	private Data dataMatricula;
 
 	//construtor
-	public Aluno(String nome, String rg,String dataNascimento, String ra){
+	public Aluno(String nome, String rg,String dataNascimento, String ra, String dataMatricula){
 		super(nome,rg,dataNascimento);
 		this.ra = ra;
+		this.dataMatricula = new Data(dataMatricula);
 	}
 
 	//gets
 	public String getRa(){
 		return this.ra;
 	}
+	public String getDataMatricula(){
+		return this.dataMatricula.toString();
+	}
 
 	//sets
 	public void setRa(String ra){
 		this.ra = ra;
+	}
+	public void setDataMatricula(String dataMatricula){
+		this.dataMatricula.setData(dataMatricula);
 	}
 }
