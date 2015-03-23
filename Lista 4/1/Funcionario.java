@@ -13,12 +13,14 @@ import java.util.Scanner;
 public class Funcionario extends Pessoa{
 	private double salario;
 	private String funcao;
+	private Data dataAdmissao;
 
 	//construtor
-	public Funcionario(String nome, String rg,String dataNascimento, double salario,String funcao){
+	public Funcionario(String nome, String rg,String dataNascimento, double salario,String funcao, String dataAdmissaoString){
 		super(nome,rg,dataNascimento);
 		this.salario = salario;
 		this.funcao = funcao;
+		this.dataAdmissao = new Data(dataAdmissaoString);
 	}
 
 	//gets
@@ -28,6 +30,9 @@ public class Funcionario extends Pessoa{
 	public String getFuncao(){
 		return this.funcao;
 	}
+	public String getDataAdmissao(){
+		return this.dataAdmissao.toString();
+	}
 
 	//sets
 	public void setSalario(double salario){
@@ -35,5 +40,8 @@ public class Funcionario extends Pessoa{
 	}
 	public void setFuncao(String funcao){
 		this.funcao = funcao;
+	}
+	public void setDataAdimissao(String dataString){
+		this.dataAdmissao.setData(dataString);
 	}
 }
