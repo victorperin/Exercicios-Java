@@ -14,8 +14,8 @@ public class Aluno extends Pessoa{
 	private String ra;
 
 	//construtor
-	public Aluno(String nome, String rg, String ra){
-		super(nome,rg);
+	public Aluno(String nome, String rg,String dataNascimento, String ra){
+		super(nome,rg,dataNascimento);
 		this.ra = ra;
 	}
 
