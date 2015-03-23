@@ -42,6 +42,12 @@ public class Data{
 	public void setAno(int ano){
 		this.ano=ano;
 	}
+	public void setData(String dataString){
+		int[] data = converterToArray(dataString);
+		this.dia=data[0];
+		this.mes=data[1];
+		this.ano=data[2];
+	}
 
 
 	//toString
