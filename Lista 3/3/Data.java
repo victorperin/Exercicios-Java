@@ -7,35 +7,36 @@ toString deverá retornar uma string no seguinte formato “dia/mês/ano”, com
 “05/março/2015”
 
 *******************************************************************************/
+//obs: um ano é bissexto quando o mesmo é divisível por 4
 public class Data{
 	private int dia, mes, ano;
 
-	public Lampada(){}
-	public Lampada(int dia, int mes, int ano){
+	public Data(){}
+	public Data(int dia, int mes, int ano){
 		this.dia=dia;
 		this.mes=mes;
 		this.ano=ano;
 	}
 
 	//getters
-	public String getDia(){
+	public int getDia(){
 		return this.dia;
 	}
 	public int getMes(){
 		return this.mes;
 	}
-	public String getAno(){
+	public int getAno(){
 		return this.ano;
 	}
 
 	//setters
-	public void setDia(String dia){
+	public void setDia(int dia){
 		this.dia=dia;
 	}
 	public void setMes(int mes){
 		this.mes=mes;
 	}
-	public void setAno(String ano){
+	public void setAno(int ano){
 		this.ano=ano;
 	}
 
