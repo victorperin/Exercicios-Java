@@ -12,11 +12,12 @@ public class Data{
 	private int dia, mes, ano;
 
 	public Data(){}
-	public Data(int dia, int mes, int ano){
-		if(validarData(dia,mes,ano)){
-			this.dia=dia;
-			this.mes=mes;
-			this.ano=ano;
+	public Data(String dataString){
+		int[] dataInt = converterToArray(dataString);
+		if(validarData(dataString)){
+			this.dia=dataInt[0];
+			this.mes=dataInt[1];
+			this.ano=dataInt[2];
 		}
 	}
 
@@ -59,9 +60,10 @@ public class Data{
 	}
 
 	//validarData
-	public boolean validarData(int dia,int mes,int ano){
-		if(ano>0){
-			switch(mes){
+	public boolean validarData(String dataString){
+		int[] data = converterToArray(dataString);
+		if(data[2]>0){//ano
+			switch(data[1]){ //mes
 				case 1:
 				case 3:
 				case 5:
@@ -69,19 +71,19 @@ public class Data{
 				case 8:
 				case 10:
 				case 12:
-					if(dia<=31) return true;
+					if(data[0]<=31) return true;//dia
 					break;
 				case 2:
-					if(ano%4==0){
-						if(dia<=29) return true;
+					if(data[2]%4==0){//ano
+						if(data[0]<=29) return true;//dia
 					}
-					else{if(dia<=28) return true;}
+					else{if(data[0]<=28) return true;}//dia
 					break;
 				case 4:
 				case 6:
 				case 9:
 				case 11:
-					if(dia<=30) return true;
+					if(data[0]<=30) return true;//dia
 					break;
 				default:
 					break;
