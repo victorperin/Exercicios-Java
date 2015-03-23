@@ -12,11 +12,13 @@ import java.util.Scanner;
 
 public class Pessoa{
 	String nome, rg;
+	Data dataNascimento;
 
 	//construtor
-	public Pessoa(String nome, String rg){
+	public Pessoa(String nome, String rg,String dataString){
 		this.nome = nome;
 		this.rg = rg;
+		this.dataNascimento = new Data(dataString);
 	}
 
 	//gets
@@ -25,6 +27,9 @@ public class Pessoa{
 	}
 	public String getRg(){
 		return this.rg;
+	}
+	public String getData(){
+		return this.dataNascimento.toString();
 	}
 
 	//sets
