@@ -21,4 +21,9 @@ public class PessoaFisica extends Cliente{
 	public void setCpf(int cpf){
 		this.cpf = cpf;
 	}
+
+	//toString
+	public String imprimirDados(){
+		System.out.println("Pessoa Física:\n\Nome: "+this.nome+"\n\tEndereço: "+this.endereco+"\n\tTelefone: "+this.telefone+"\n\tCPF: "+this.cpf);
+	}
 }
