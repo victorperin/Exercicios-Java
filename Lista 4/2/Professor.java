@@ -7,13 +7,13 @@ public class Professor extends Pessoa{
 	private String disciplina;
 
 	//construtor
-	public Funcionario(String nome, String sobrenome,String disciplina){
+	public Professor(String nome, String sobrenome,String disciplina){
 		super(nome,sobrenome);
 		this.disciplina = disciplina;
 	}
 
 	//gets
-	public double getDisciplina(){
+	public String getDisciplina(){
 		return this.disciplina;
 	}
 
