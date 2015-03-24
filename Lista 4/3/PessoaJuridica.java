@@ -23,4 +23,9 @@ public class PessoaJuridica extends Cliente{
 	public void setNomeFantasia(String nomeFantasia){
 		this.nomeFantasia = nomeFantasia;
 	}
+
+	//toString
+	public String imprimirDados(){
+		System.out.println("Pessoa Física:\n\Nome: "+this.nome+"\n\tEndereço: "+this.endereco+"\n\tTelefone: "+this.telefone+"\n\tCNPJ: "+this.cnpj+"\n\tNome Fantasia:"+this.nomeFantasia);
+	}
 }
