@@ -15,17 +15,23 @@ public class PessoaJuridica extends Cliente{
 	}
 
 	//gets
-	public double getCnpj(){
+	public String getCnpj(){
 		return this.cnpj;
+	}
+	public String getNomeFantasia(){
+		return this.nomeFantasia;
 	}
 
 	//sets
+	public void setCnpj(String cnpj){
+		this.cnpj = cnpj;
+	}
 	public void setNomeFantasia(String nomeFantasia){
 		this.nomeFantasia = nomeFantasia;
 	}
 
 	//toString
-	public String imprimirDados(){
-		System.out.println("Pessoa Física:\n\Nome: "+this.nome+"\n\tEndereço: "+this.endereco+"\n\tTelefone: "+this.telefone+"\n\tCNPJ: "+this.cnpj+"\n\tNome Fantasia:"+this.nomeFantasia);
+	public void ImprimirDados(){
+		System.out.println("Pessoa Física:\n\tNome: "+this.nome+"\n\tEndereço: "+this.endereco+"\n\tTelefone: "+this.telefone+"\n\tCNPJ: "+this.cnpj+"\n\tNome Fantasia: "+this.nomeFantasia);
 	}
 }

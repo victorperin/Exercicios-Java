@@ -13,17 +13,17 @@ public class PessoaFisica extends Cliente{
 	}
 
 	//gets
-	public int getCpf(){
+	public String getCpf(){
 		return this.cpf;
 	}
 
 	//sets
-	public void setCpf(int cpf){
+	public void setCpf(String cpf){
 		this.cpf = cpf;
 	}
 
 	//toString
-	public String imprimirDados(){
-		System.out.println("Pessoa Física:\n\Nome: "+this.nome+"\n\tEndereço: "+this.endereco+"\n\tTelefone: "+this.telefone+"\n\tCPF: "+this.cpf);
+	public void ImprimirDados(){
+		System.out.println("Pessoa Física:\n\tNome: "+this.nome+"\n\tEndereço: "+this.endereco+"\n\tTelefone: "+this.telefone+"\n\tCPF: "+this.cpf);
 	}
 }
