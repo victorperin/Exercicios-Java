@@ -8,7 +8,7 @@ public class PessoaJuridica extends Cliente{
 	private String nomeFantasia;
 
 	//construtor
-	public Funcionario(String nome, String endereco,String telefone,String cnpj,String nomeFantasia){
+	public PessoaJuridica(String nome, String endereco,String telefone,String cnpj,String nomeFantasia){
 		super(nome,endereco,telefone);
 		this.cnpj = cnpj;
 		this.nomeFantasia = nomeFantasia;
