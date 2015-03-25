@@ -1,4 +1,4 @@
-0public class Data{
+public class Data{
 	private int dia, mes, ano;
 
 	public Data(){}
