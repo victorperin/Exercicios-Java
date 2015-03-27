@@ -14,7 +14,8 @@ representar esta hierarquia.
 *******************************************************************************/
 
 public class Empregado extends Pessoa{
-  private double salario;
+  protected double salario;
+  protected String tipo;
 
   public Empregado(String nome,double salario){
     super(nome);
@@ -25,9 +26,15 @@ public class Empregado extends Pessoa{
   public double getSalario(){
     return this.salario;
   }
+  public String getTipo(){
+    return this.tipo;
+  }
 
   //setters
   public void setSalario(double salario){
     this.salario=salario;
+  }
+  protected void setTipo(String tipo){
+    this.tipo=tipo;
   }
 }
