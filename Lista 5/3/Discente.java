@@ -14,7 +14,6 @@ representar esta hierarquia.
 *******************************************************************************/
 
 public class Discente extends Empregado{
-  private String tipo;
 
   public Discente(String nome,double salario,String tipo){
     super(nome,salario);

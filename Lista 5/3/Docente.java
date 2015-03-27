@@ -14,7 +14,6 @@ representar esta hierarquia.
 *******************************************************************************/
 
 public class Docente extends Empregado{
-  private String tipo;
 
   public Docente(String nome,double salario,String tipo){
     super(nome,salario);
