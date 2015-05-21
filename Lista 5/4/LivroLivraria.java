@@ -22,4 +22,18 @@ public class LivroLivraria{
     this.preco = preco;
     this.quantidade = quantidade;
   }
+
+  //getters
+  public String getNomeLivro(){
+    return this.livro.getNome();
+  }
+  public String getAutorLivro(){
+    return this.livro.getAutor();
+  }
+  public float getPreco(){
+    return this.preco;
+  }
+  public int getQuantidade(){
+    return this.quantidade;
+  }
 }
