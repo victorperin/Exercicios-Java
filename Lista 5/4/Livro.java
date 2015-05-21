@@ -11,12 +11,19 @@ public class Livro{
   private String nome,autor,resumo;
   private Data dataLancamento;
 
-  //construtor
+  //construtores
   public Livro(String nomeLivro, String nomeAutor, Data dataLancamento){
     this.nome = nomeLivro;
     this.autor = nomeAutor;
     this.dataLancamento = dataLancamento;
   }
+  public Livro(String nomeLivro, String nomeAutor, Data dataLancamento, String resumo){
+    this.nome = nomeLivro;
+    this.autor = nomeAutor;
+    this.dataLancamento = dataLancamento;
+    this.resumo = resumo;
+  }
+
   public void setResumo(String resumo){
     this.resumo = resumo;
   }
