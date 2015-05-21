@@ -11,4 +11,10 @@ public class LivroLivraria{
   private Livro livro;
   private int quantidade;
   private float preco;
+
+  //construtor
+  public LivroLivraria(Livro livro, float preco){
+    this.livro = livro;
+    this.preco = preco;
+  }
 }
