@@ -39,4 +39,9 @@ public class LivroLivraria{
   public int getQuantidade(){
     return this.quantidade;
   }
+
+  //setters
+  public void setPreco(float novoPreco){
+    if(novoPreco>=0.0f) this.preco = novoPreco;
+  }
 }
