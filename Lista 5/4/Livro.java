@@ -17,4 +17,7 @@ public class Livro{
     this.autor = nomeAutor;
     this.dataLancamento = dataLancamento;
   }
+  public void setResumo(String resumo){
+    this.resumo = resumo;
+  }
 }
