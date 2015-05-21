@@ -30,6 +30,9 @@ public class LivroLivraria{
   public String getAutorLivro(){
     return this.livro.getAutor();
   }
+  public String getDataLancamentoLivro(){
+    return this.livro.getDataLancamento();
+  }
   public float getPreco(){
     return this.preco;
   }
