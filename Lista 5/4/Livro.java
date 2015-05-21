@@ -23,6 +23,19 @@ public class Livro{
     this.dataLancamento = dataLancamento;
     this.resumo = resumo;
   }
+  //getters
+  public String getNome(){
+    return this.nome;
+  }
+  public String getAutor(){
+    return this.autor;
+  }
+  public String getDataLancamento(){
+    return this.dataLancamento.toString();
+  }
+  public String getResumo(){
+    return this.resumo;
+  }
 
   //setters
   public void setResumo(String resumo){
