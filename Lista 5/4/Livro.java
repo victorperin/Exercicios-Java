@@ -12,7 +12,9 @@ public class Livro{
   private Data dataLancamento;
 
   //construtor
-  public Livro(){
-
+  public Livro(String nomeLivro, String nomeAutor, Data dataLancamento){
+    this.nome = nomeLivro;
+    this.autor = nomeAutor;
+    this.dataLancamento = dataLancamento;
   }
 }
