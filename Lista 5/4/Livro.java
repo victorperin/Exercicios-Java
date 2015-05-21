@@ -24,6 +24,7 @@ public class Livro{
     this.resumo = resumo;
   }
 
+  //setters
   public void setResumo(String resumo){
     this.resumo = resumo;
   }
