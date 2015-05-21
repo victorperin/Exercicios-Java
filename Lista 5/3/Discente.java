@@ -28,7 +28,7 @@ public class Discente extends Empregado{
         setTipo(tipo);
         break;
       default:
-        System.out.println("Atenção, tipo de docente errado.");
+        System.out.println("Atenção, tipo de discente errado.");
     }
   }
 }
