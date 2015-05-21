@@ -22,7 +22,13 @@ public class Discente extends Empregado{
 
   //setters
   public void setTipoDiscente(String tipo){
-    if(tipo=="escritório"||tipo=="manutenção") setTipo(tipo);
-    else System.out.println("Atenção, tipo de docente errado.");
+    switch(tipo){
+      case "escritorio":
+      case "manutenção":
+        setTipo(tipo);
+        break;
+      default:
+        System.out.println("Atenção, tipo de docente errado.");
+    }
   }
 }
