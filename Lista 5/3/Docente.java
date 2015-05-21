@@ -22,7 +22,14 @@ public class Docente extends Empregado{
 
   //setters
   public void setTipoDocente(String tipo){
-    if(tipo=="demonstrador"||tipo=="monitor"||tipo=="professor") setTipo(tipo);
-    else System.out.println("Atenção, tipo de docente errado.");
+    switch(tipo){
+      case "demonstrador":
+      case "monitor":
+      case "professor":
+        setTipo(tipo);
+        break;
+      default:
+        System.out.println("Atenção, tipo de docente errado.");
+    }
   }
 }
