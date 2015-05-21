@@ -15,11 +15,11 @@ public class LivroLivraria{
   //construtores
   public LivroLivraria(Livro livro, float preco){
     this.livro = livro;
-    this.preco = preco;
+    if(preco>=0.0f) this.preco = preco;
   }
   public LivroLivraria(Livro livro, float preco,int quantidade){
     this.livro = livro;
-    this.preco = preco;
+    if(preco>=0.0f) this.preco = preco;
     this.quantidade = quantidade;
   }
 
