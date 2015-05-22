@@ -17,6 +17,11 @@ public class Livro{
     this.autor = nomeAutor;
     this.dataLancamento = dataLancamento;
   }
+  public Livro(String nomeLivro, String nomeAutor, String dataLancamento){
+    this.nome = nomeLivro;
+    this.autor = nomeAutor;
+    this.dataLancamento = new Data(dataLancamento);
+  }
   public Livro(String nomeLivro, String nomeAutor, Data dataLancamento, String resumo){
     this.nome = nomeLivro;
     this.autor = nomeAutor;
