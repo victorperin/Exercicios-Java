@@ -8,7 +8,12 @@ Escreva uma classe Livro que represente os dados básicos de um livro.
 • Escreva também um programa que demonstre o uso destas classes.
 *******************************************************************************/
 public class LivroBiblioteca{
+  private Livro livro;
+  private boolean emprestado;
+  private String preco;
+  private Data dataDevolucao;
+  
   public LivroBiblioteca(){
-    
+
   }
 }
