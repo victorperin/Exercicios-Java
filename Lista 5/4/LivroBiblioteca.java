@@ -10,9 +10,9 @@ Escreva uma classe Livro que represente os dados básicos de um livro.
 public class LivroBiblioteca{
   private Livro livro;
   private boolean emprestado;
-  private String preco;
+  private String leitor;
   private Data dataDevolucao;
-  
+
   public LivroBiblioteca(){
 
   }
