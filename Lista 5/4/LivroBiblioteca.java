@@ -28,7 +28,7 @@ public class LivroBiblioteca{
     this.livro = livro;
     this.leitor = leitor;
     this.emprestado = true;
-    this.dataDevolucao = dataDevolucao;
+    this.dataDevolucao = new Data(dataDevolucao);
   }
 
   //getters
