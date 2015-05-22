@@ -44,4 +44,14 @@ public class LivroBiblioteca{
   public String getResumoLivro(){
     return livro.getResumo();
   }
+  public boolean getSeFoiEmprestado(){
+    return this.emprestado;
+  }
+  public String getLeitor(){
+    if(this.emprestado) return this.leitor;
+    else return "O livro não foi emprestado";
+  }
+  public String getDataDevolucao(){
+    return dataDevolucao.toString();
+  }
 }
