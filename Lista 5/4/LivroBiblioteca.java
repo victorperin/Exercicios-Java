@@ -20,4 +20,10 @@ public class LivroBiblioteca{
     Data dataAtual = new Data();
     this.dataDevolucao = new Data((dataAtual.getDia()+7),dataAtual.getMes(),dataAtual.getAno());
   }
+  public LivroBiblioteca(Livro livro, String leitor,String dataDevolucao){
+    this.livro = livro;
+    this.leitor = leitor;
+    this.emprestado = true;
+    this.dataDevolucao = dataDevolucao;
+  }
 }
