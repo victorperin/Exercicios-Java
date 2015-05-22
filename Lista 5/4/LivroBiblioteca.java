@@ -30,4 +30,18 @@ public class LivroBiblioteca{
     this.emprestado = true;
     this.dataDevolucao = dataDevolucao;
   }
+
+  //getters
+  public String getNomeLivro(){
+    return livro.getNome();
+  }
+  public String getAutorLivro(){
+    return livro.getAutor();
+  }
+  public String getDataLancamentoLivro(){
+    return livro.getDataLancamento();
+  }
+  public String getResumoLivro(){
+    return livro.getResumo();
+  }
 }
