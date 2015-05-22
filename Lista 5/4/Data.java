@@ -1,7 +1,14 @@
+import java.util.Calendar;
+
 public class Data{
 	private int dia, mes, ano;
 
-	public Data(){}
+	public Data(){
+		Calendar agora = Calendar.getInstance();
+		int dia = agora.get(Calendar.DAY_OF_MONTH);
+		int mes = agora.get(Calendar.MONTH);
+		int ano = agora.get(Calendar.YEAR);
+	}
 	public Data(String dataString){
 		int[] dataInt = converterToArray(dataString);
 		if(validarData(dataString)){
