@@ -7,3 +7,8 @@ Escreva uma classe Livro que represente os dados básicos de um livro.
     que pode ser emprestado a leitores.
 • Escreva também um programa que demonstre o uso destas classes.
 *******************************************************************************/
+public class LivroBiblioteca{
+  public LivroBiblioteca(){
+    
+  }
+}
