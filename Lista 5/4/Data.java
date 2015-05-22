@@ -17,6 +17,14 @@ public class Data{
 			this.ano=dataInt[2];
 		}
 	}
+	public Data(int dia,int mes,int ano){
+		String dataString = Integer.toString(dia)+"/"+Integer.toString(mes)+"/"+Integer.toString(ano);
+		if(validarData(dataString)){
+			this.dia=dia;
+			this.mes=mes;
+			this.ano=ano;
+		}
+	}
 
 	//getters
 	public int getDia(){
