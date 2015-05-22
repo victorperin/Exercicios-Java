@@ -52,7 +52,8 @@ public class LivroBiblioteca{
     else return "O livro não foi emprestado";
   }
   public String getDataDevolucao(){
-    return dataDevolucao.toString();
+    if(this.emprestado) return dataDevolucao.toString();
+    else return "O livro não foi emprestado";
   }
 
   //setters
