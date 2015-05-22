@@ -13,6 +13,10 @@ public class LivroBiblioteca{
   private String leitor;
   private Data dataDevolucao;
 
+  public LivroBiblioteca(Livro livro){
+    this.livro = livro;
+    this.emprestado = false;
+  }
   public LivroBiblioteca(Livro livro, String leitor){
     this.livro = livro;
     this.leitor = leitor;
