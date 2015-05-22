@@ -13,7 +13,11 @@ public class LivroBiblioteca{
   private String leitor;
   private Data dataDevolucao;
 
-  public LivroBiblioteca(){
-
+  public LivroBiblioteca(Livro livro, String leitor){
+    this.livro = livro;
+    this.leitor = leitor;
+    this.emprestado = true;
+    Data dataAtual = new Data();
+    this.dataDevolucao = new Data((dataAtual.getDia()+7),dataAtual.getMes(),dataAtual.getAno());
   }
 }
