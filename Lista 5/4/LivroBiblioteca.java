@@ -54,4 +54,23 @@ public class LivroBiblioteca{
   public String getDataDevolucao(){
     return dataDevolucao.toString();
   }
+
+  //setters
+  public void devolver(){
+    this.emprestado = false;
+    this.leitor = "";
+  }
+  public void alugar(String nome){
+    this.emprestado = true;
+    this.leitor = nome;
+    Data dataAtual = new Data();
+    this.dataDevolucao = new Data((dataAtual.getDia()+7),dataAtual.getMes(),dataAtual.getAno());
+  }
+  public void trocarLeitor(String nome){
+    this.leitor = nome;
+  }
+  public void aumentarPrazoDevolucao(){
+    Data novaData = new Data((this.dataDevolucao.getDia()+7),this.dataDevolucao.getMes(),this.dataDevolucao.getAno());
+    this.dataDevolucao = novaData;
+  }
 }
