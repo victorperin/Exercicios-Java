@@ -38,4 +38,12 @@ public class VeiculoAVenda{
   public void setPercodeVenda(float precoDeVenda){
     this.precoDeVenda = precoDeVenda;
   }
+
+  //toString
+  public String toString(){
+    String retorno = "Tipo: "+this.tipo;
+    retorno += "\nAno: "+this.ano;
+    retorno += "\nPreço: "+this.precoDeVenda+"\n";
+    return retorno;
+  }
 }
