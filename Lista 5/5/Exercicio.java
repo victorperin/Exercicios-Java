@@ -9,6 +9,8 @@ public class Exercicio{
   public static void main(String[]args){
 
     VeiculoAVenda veiculo = new AutomovelAVenda("fusca",1970,10000.00f);
-    System.out.print(veiculo.getTipo());
+    VeiculoAVenda moto = new MotocicletaAVenda("fusca",1970,10000.00f);
+    System.out.println(veiculo.getTipo());
+    System.out.println(moto.getTipo());
   }
 }
