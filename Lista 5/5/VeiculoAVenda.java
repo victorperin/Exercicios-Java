@@ -15,6 +15,7 @@ public class VeiculoAVenda{
     this.ano = ano;
     this.precoDeVenda = precoDeVenda;
   }
+  protected VeiculoAVenda(){}
 
   //getters
   public String getTipo(){
