@@ -26,4 +26,15 @@ public class VeiculoAVenda{
   public float getPrecoDeVenda(){
     return this.precoDeVenda;
   }
+
+  //setters
+  public void setTipo(String tipo){
+    this.tipo = tipo;
+  }
+  public void setAno(int ano){
+    this.ano = ano;
+  }
+  public void setPercodeVenda(float precoDeVenda){
+    this.precoDeVenda = precoDeVenda;
+  }
 }
