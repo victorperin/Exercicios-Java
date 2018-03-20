@@ -1,16 +1,16 @@
-#Exercícios - Java
+# Exercícios - Java
 
 
 Os mesmos exercícios do semestre passado, feitos em C#, agora, recriados em Java.
 
 **Atenção:** QUALQUER tipo de correção é bem vinda, sinta-se à vontade para me enviar pull requests, issues, alterações na wiki, etc...
 
-####Meta: 2 Exercícios por dia
+#### Meta: 2 Exercícios por dia
 
 
 
 
-#####Legenda
+##### Legenda
 | Símbolo  | Significado |
 | :---------------: | :--------------- |
 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) | Exercício finalizado (Ainda pode receber melhorias) |
@@ -21,8 +21,8 @@ Os mesmos exercícios do semestre passado, feitos em C#, agora, recriados em Jav
 
 
 
-##Lista 1 (64 exercícios)
-###Nível 1: Entrada, Processamento e Saída
+## Lista 1 (64 exercícios)
+### Nível 1: Entrada, Processamento e Saída
 | Exercício  | Estado |
 | :---------------: | :---------------: |
 | 01 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
@@ -37,7 +37,7 @@ Os mesmos exercícios do semestre passado, feitos em C#, agora, recriados em Jav
 | 10 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
 
 
-###Nível 2: Estruturas Condicionais
+### Nível 2: Estruturas Condicionais
 | Exercício  | Estado |
 | :---------------: | :---------------: |
 | 11 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
@@ -54,7 +54,7 @@ Os mesmos exercícios do semestre passado, feitos em C#, agora, recriados em Jav
 | 22 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
 
 
-###Nível 3: Estrutura de Seleção
+### Nível 3: Estrutura de Seleção
 | Exercício  | Estado |
 | :---------------: | :---------------: |
 | 23 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
@@ -62,7 +62,7 @@ Os mesmos exercícios do semestre passado, feitos em C#, agora, recriados em Jav
 | 25 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
 
 
-###Nível 4: Estruturas de Repetição
+### Nível 4: Estruturas de Repetição
 | Exercício  | Estado |
 | :---------------: | :---------------: |
 | 26 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
@@ -86,7 +86,7 @@ Os mesmos exercícios do semestre passado, feitos em C#, agora, recriados em Jav
 | 44 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
 
 
-###Nível 5: Vetores e Matrizes
+### Nível 5: Vetores e Matrizes
 | Exercício  | Estado |
 | :---------------: | :---------------: |
 | 45 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
@@ -106,7 +106,7 @@ Os mesmos exercícios do semestre passado, feitos em C#, agora, recriados em Jav
 | 59 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
 
 
-###Nível 6: Métodos
+### Nível 6: Métodos
 | Exercício  | Estado |
 | :---------------: | :---------------: |
 | 60 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
@@ -117,7 +117,7 @@ Os mesmos exercícios do semestre passado, feitos em C#, agora, recriados em Jav
 
 
 
-##Lista 2 - Objetos
+## Lista 2 - Objetos
 | Exercício  | Estado |
 | :---------------: | :---------------: |
 | 1 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
@@ -126,7 +126,7 @@ Os mesmos exercícios do semestre passado, feitos em C#, agora, recriados em Jav
 
 
 
-##Lista 3 - 05/03/2015
+## Lista 3 - 05/03/2015
 | Exercício  | Estado |
 | :---------------: | :---------------: |
 | 1 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
@@ -135,7 +135,7 @@ Os mesmos exercícios do semestre passado, feitos em C#, agora, recriados em Jav
 
 
 
-##Lista 4 - 12/03/2015
+## Lista 4 - 12/03/2015
 | Exercício  | Estado |
 | :---------------: | :---------------: |
 | 1 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
@@ -144,7 +144,7 @@ Os mesmos exercícios do semestre passado, feitos em C#, agora, recriados em Jav
 
 
 
-##Lista 5 - 19/03/2015
+## Lista 5 - 19/03/2015
 | Exercício  | Estado |
 | :---------------: | :---------------: |
 | 1 | ![azul](https://cloud.githubusercontent.com/assets/5847145/6166115/634f3374-b294-11e4-85e2-b5483081ddcf.png) |
