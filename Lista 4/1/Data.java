@@ -67,8 +67,10 @@ public class Data{
 
 	//validarData
 	public boolean validarData(String dataString){
-		int[] data = converterToArray(dataString);
-		if(data[2]>0){//ano
+		Date c = Calendar.getInstance().getTime();
+        	SimpleDateFormat df = new SimpleDateFormat("yyyy");
+        	int[] data = converterToArray(dataString);
+        	if(data[2] > 0 && data[2] <= Integer.parseInt(df.format(c))){//ano
 			switch(data[1]){ //mes
 				case 1:
 				case 3:
